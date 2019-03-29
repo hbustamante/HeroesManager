@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using DataLayer;
 using DataLayer.Interfaces;
 using DataLayer.Repository;
-using LibraryManagement.Data;
+using SuperHero.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -37,8 +37,8 @@ namespace SuperHero
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddDbContext<HeroDbContext>(options => options.UseInMemoryDatabase("LibraryManagement"));
-            services.AddDbContext<IdentityDbContext>(options => options.UseInMemoryDatabase("LibraryManagement"));
+            services.AddDbContext<HeroDbContext>(options => options.UseInMemoryDatabase("SuperHero"));
+            services.AddDbContext<IdentityDbContext>(options => options.UseInMemoryDatabase("SuperHero"));
             services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<IdentityDbContext>();
             services.AddTransient<IHeroRepository, HeroRepository>();
             services.AddTransient<IHouseRepository, HouseRepository>();

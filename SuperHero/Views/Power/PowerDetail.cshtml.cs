@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace LibraryManagement.Views.Author
+namespace SuperHero.Views.Power
 {
-    public class AuthorDetailModel : PageModel
+    public class PowerDetailModel : PageModel
     {
         public void OnGet()
         {

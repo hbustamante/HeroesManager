@@ -9,6 +9,6 @@ namespace SuperHero.ViewModels
     {
         public int HousesCount { get; set; }
         public int PowersCount { get; set; }
-        public int HeroesCount { get; set; }
+        public int HerosCount { get; set; }
     }
 }

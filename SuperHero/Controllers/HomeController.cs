@@ -28,7 +28,7 @@ namespace SuperHero.Controllers
             {
                 HousesCount = _houseRepository.Count(x => true),
                 PowersCount = _powerRepository.Count(x => true),
-                HeroesCount = _heroRepository.Count(x => true),
+                HerosCount = _heroRepository.Count(x => true),
             };
 
             return View(homeVM);

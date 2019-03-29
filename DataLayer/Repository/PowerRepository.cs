@@ -11,14 +11,14 @@ namespace DataLayer.Repository
     public class PowerRepository : Repository<Power>, IPowerRepository
     {
         public PowerRepository(HeroDbContext context) : base(context) { }
-        public IEnumerable<Power> GetAllWithHeroes()
+        public IEnumerable<Power> GetAllWithHeros()
         {
-            return _context.Powers.Include(a => a.Heroes);
+            return _context.Powers.Include(a => a.Heros);
         }
 
         public Power GetWithHero(int id)
         {
-            return _context.Powers.Where(a => a.PowerId == id).Include(a => a.Heroes).FirstOrDefault();
+            return _context.Powers.Where(a => a.PowerId == id).Include(a => a.Heros).FirstOrDefault();
         }
     }
 }

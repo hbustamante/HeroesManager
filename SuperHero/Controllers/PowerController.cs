@@ -9,7 +9,7 @@ using SuperHero.ViewModels;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace LibraryManagement.Controllers
+namespace SuperHero.Controllers
 {
     public class PowerController : Controller
     {
@@ -24,14 +24,14 @@ namespace LibraryManagement.Controllers
         {
             if (!_repository.Any()) return View("Empty");
 
-            var Powers = _repository.GetAllWithHeroes();
+            var Powers = _repository.GetAllWithHeros();
 
             return View(Powers);
         }
 
         public IActionResult PowerDetail()
         {
-            var Powers = _repository.GetAllWithHeroes();
+            var Powers = _repository.GetAllWithHeros();
 
             if (Powers?.ToList().Count == 0)
             {

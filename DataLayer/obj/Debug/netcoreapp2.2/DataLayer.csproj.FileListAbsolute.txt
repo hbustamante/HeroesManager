@@ -16,3 +16,6 @@ C:\Users\heber.bustamante\Desktop\AspNetCore\DataLayer\obj\Debug\netcoreapp2.2\D
 C:\Users\heber.bustamante\Desktop\AspNetCore\DataLayer\obj\Debug\netcoreapp2.2\DataLayer.csproj.CopyComplete
 C:\Users\heber.bustamante\Desktop\AspNetCore\DataLayer\obj\Debug\netcoreapp2.2\DataLayer.dll
 C:\Users\heber.bustamante\Desktop\AspNetCore\DataLayer\obj\Debug\netcoreapp2.2\DataLayer.pdb
+C:\Users\heber.bustamante\Desktop\AspNetCore\HeroesManager\DataLayer\obj\Debug\netcoreapp2.2\DataLayer.dll
+C:\Users\heber.bustamante\Desktop\AspNetCore\HeroesManager\DataLayer\obj\Debug\netcoreapp2.2\DataLayer.pdb
+C:\Users\heber.bustamante\Desktop\AspNetCore\HeroesManager\DataLayer\bin\Debug\netcoreapp2.2\DataLayer.pdb

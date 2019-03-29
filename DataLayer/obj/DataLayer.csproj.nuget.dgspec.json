@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\heber.bustamante\\Desktop\\AspNetCore\\DataLayer\\DataLayer.csproj": {}
+    "C:\\Users\\heber.bustamante\\Desktop\\AspNetCore\\HeroesManager\\DataLayer\\DataLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\heber.bustamante\\Desktop\\AspNetCore\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\heber.bustamante\\Desktop\\AspNetCore\\HeroesManager\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\heber.bustamante\\Desktop\\AspNetCore\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\heber.bustamante\\Desktop\\AspNetCore\\HeroesManager\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "C:\\Users\\heber.bustamante\\Desktop\\AspNetCore\\DataLayer\\DataLayer.csproj",
+        "projectPath": "C:\\Users\\heber.bustamante\\Desktop\\AspNetCore\\HeroesManager\\DataLayer\\DataLayer.csproj",
         "packagesPath": "C:\\Users\\heber.bustamante\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\heber.bustamante\\Desktop\\AspNetCore\\DataLayer\\obj\\",
+        "outputPath": "C:\\Users\\heber.bustamante\\Desktop\\AspNetCore\\HeroesManager\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",

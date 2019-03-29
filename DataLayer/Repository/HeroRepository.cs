@@ -13,14 +13,14 @@ namespace DataLayer.Repository
         public HeroRepository(HeroDbContext context) : base(context) { }
         public IEnumerable<Hero> FindWithPower(Func<Hero, bool> predicate)
         {
-            return _context.Heroes
+            return _context.Heros
                 .Include(a => a.Power)
                 .Where(predicate);
         }
 
         public IEnumerable<Hero> FindWithPowerAndHouse(Func<Hero, bool> predicate)
         {
-            return _context.Heroes
+            return _context.Heros
                .Include(a => a.Power)
                .Include(a => a.House)
                .Where(predicate);
@@ -28,7 +28,7 @@ namespace DataLayer.Repository
 
         public IEnumerable<Hero> GetAllWithPower()
         {
-            return _context.Heroes.Include(a => a.Power);
+            return _context.Heros.Include(a => a.Power);
         }
     }
 }

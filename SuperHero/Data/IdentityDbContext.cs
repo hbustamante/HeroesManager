@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace LibraryManagement.Data
+namespace SuperHero.Data
 {
     public class IdentityDbContext : IdentityDbContext<IdentityUser>
     {

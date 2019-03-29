@@ -13,7 +13,7 @@ namespace DataLayer
 
         }
 
-        public DbSet<Hero> Heroes { get; set; }
+        public DbSet<Hero> Heros { get; set; }
         public DbSet<Power> Powers { get; set; }
         public DbSet<House> Houses { get; set; }
 

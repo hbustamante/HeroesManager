@@ -7,7 +7,7 @@
         <tr>
             <th>ID</th>
             <th>Name</th>
-            <th>Heroes count</th>
+            <th>Heros count</th>
             <th>View hero list</th>
             <th>Edit Power</th>
             <th>Delete Power</th>
@@ -19,14 +19,14 @@
             <tr>
                 <td>@power.PowerId</td>
                 <td>@power.Name</td>
-                <td>@power.Heroes?.Count </td>
-                @if (power.Heroes?.Count == 0)
+                <td>@power.Heros?.Count </td>
+                @if (power.Heros?.Count == 0)
                 {
                     <td><a class="btn btn-default" asp-area="" >View hero list</a></td>
                 }
                 else
                 {
-                    <td><a class="btn btn-info" asp-area="" asp-controller="Hero" asp-action="List" asp-route-authorId="@power.PowerId">View hero list</a></td>
+                    <td><a class="btn btn-info" asp-area="" asp-controller="Hero" asp-action="List" asp-route-powerId="@power.PowerId">View hero list</a></td>
                 }
                 <td><a class="btn btn-info" asp-area="" asp-controller="Power" asp-action="Update" asp-route-id="@power.PowerId">Edit</a></td>
                 <td><a class="btn btn-danger" asp-area="" asp-controller="Power" asp-action="Delete" asp-route-id="@power.PowerId">Delete</a></td>

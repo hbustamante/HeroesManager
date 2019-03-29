@@ -1,20 +1,10 @@
 ﻿@model SuperHero.ViewModels.HomeViewModel
 @{
-    int availableHeroes = Model.HeroesCount;
+    int availableHeros = Model.HerosCount;
 }
 
-<h1>Heroes dashboard</h1>
+<h1>Heros dashboard</h1>
 <div class="row">
-    <div class="col-md-6">
-        <div class="panel panel-primary">
-            <div class="panel-heading">
-                Houses Count
-            </div>
-            <div class="panel-body">
-                There are @Model.HousesCount houses
-            </div>
-        </div>
-    </div>
     <div class="col-md-6">
         <div class="panel panel-primary">
             <div class="panel-heading">
@@ -28,10 +18,10 @@
     <div class="col-md-6">
         <div class="panel panel-primary">
             <div class="panel-heading">
-                Heroes count
+                Heros count
             </div>
             <div class="panel-body">
-                There are @availableHeroes heroes available out of @Model.HeroesCount heroes
+                There are @availableHeros Heros available out of @Model.HerosCount Heros
             </div>
         </div>
     </div>

@@ -7,7 +7,7 @@ namespace DataLayer.Interfaces
 {
     public interface IPowerRepository : IRepository<Power>
     {
-        IEnumerable<Power> GetAllWithHeroes();
+        IEnumerable<Power> GetAllWithHeros();
         Power GetWithHero(int id);
     }
 }

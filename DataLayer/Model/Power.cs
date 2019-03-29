@@ -13,6 +13,6 @@ namespace DataLayer.Model
         [MaxLength(50)]
         public string Name { get; set; }
 
-        public ICollection<Hero> Heroes { get; set; }
+        public ICollection<Hero> Heros { get; set; }
     }
 }

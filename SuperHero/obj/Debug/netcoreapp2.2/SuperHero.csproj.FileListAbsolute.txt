@@ -35,3 +35,8 @@ C:\Users\heber.bustamante\Desktop\AspNetCore\HeroesManager\SuperHero\obj\Debug\n
 C:\Users\heber.bustamante\Desktop\AspNetCore\HeroesManager\SuperHero\obj\Debug\netcoreapp2.2\Razor\Views\Power\List.g.cshtml.cs
 C:\Users\heber.bustamante\Desktop\AspNetCore\HeroesManager\SuperHero\obj\Debug\netcoreapp2.2\Razor\Views\Power\PowerDetail.g.cshtml.cs
 C:\Users\heber.bustamante\Desktop\AspNetCore\HeroesManager\SuperHero\obj\Debug\netcoreapp2.2\Razor\Views\Power\Update.g.cshtml.cs
+C:\Users\heber.bustamante\Desktop\AspNetCore\HeroesManager\SuperHero\obj\Debug\netcoreapp2.2\Razor\Views\Hero\Create.g.cshtml.cs
+C:\Users\heber.bustamante\Desktop\AspNetCore\HeroesManager\SuperHero\obj\Debug\netcoreapp2.2\Razor\Views\Hero\Empty.g.cshtml.cs
+C:\Users\heber.bustamante\Desktop\AspNetCore\HeroesManager\SuperHero\obj\Debug\netcoreapp2.2\Razor\Views\Hero\EmptyPower.g.cshtml.cs
+C:\Users\heber.bustamante\Desktop\AspNetCore\HeroesManager\SuperHero\obj\Debug\netcoreapp2.2\Razor\Views\Hero\List.g.cshtml.cs
+C:\Users\heber.bustamante\Desktop\AspNetCore\HeroesManager\SuperHero\obj\Debug\netcoreapp2.2\Razor\Views\Hero\Update.g.cshtml.cs

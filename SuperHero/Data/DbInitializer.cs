@@ -23,11 +23,11 @@ namespace DataLayer
             context.Houses.Add(dc);
             context.Houses.Add(marvel);
 
-            // Add Author
+            // Add Power
             var powerForce = new Power
             {
                 Name = "Force",
-                Heroes = new List<Hero>()
+                Heros = new List<Hero>()
                 {
                     new Hero { Name = "Hulk" },
                     new Hero { Name = "Silver Surfer" }
@@ -37,7 +37,7 @@ namespace DataLayer
             var powerVelocity = new Power
             {
                 Name = "Velocity",
-                Heroes = new List<Hero>()
+                Heros = new List<Hero>()
                 {
                     new Hero { Name = "Superman"},
                     new Hero { Name = "Flash"}
