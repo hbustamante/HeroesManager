@@ -1,0 +1,10 @@
+﻿@model IEnumerable<DataLayer.Model.Power>
+
+<a class="btn btn-success mt-5" style="margin: 10px" asp-controller="Power" asp-action="Create">Create new power</a>
+
+<div class="row">
+    @foreach (var power in Model)
+    {
+        @Html.Partial("PowerPartial", power)
+    }
+</div>
